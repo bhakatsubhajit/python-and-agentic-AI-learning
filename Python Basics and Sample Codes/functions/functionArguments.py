@@ -7,6 +7,10 @@ c = add(8,7)
 
 print("The sum is == ",c)
 
+#keyword arguements
+newResult = add(b=10,a=8)
+print("The sum for keyword arguements== ",newResult)
+
 #default arguements
 
 def multi(a,b=1):
